@@ -1,0 +1,14 @@
+[
+  {"author": "zomato", "kind": "offer", "title": "Holi party offer", "body": "Flat ₹100 off on orders above ₹499 this Holi on Zomato.", "relevant": ["phonepe", "hdfc_bank"]},
+  {"author": "bajaj_auto", "kind": "offer", "title": "Pulsar price cut", "body": "Bajaj cuts Pulsar 150 prices by ₹5,000 for the festive season; looking for financing partners with low EMI.", "relevant": ["hdfc_bank", "tata_aig"]},
+  {"author": "flipkart", "kind": "question", "title": "Need logistics partners for Diwali sale", "body": "We expect 3x parcel volumes during the Diwali sale and need warehousing and last-mile partners.", "relevant": ["delhivery"]},
+  {"author": "hdfc_bank", "kind": "offer", "title": "HDFC cards: 10% off at electronics stores", "body": "HDFC Bank credit cards get 10% instant discount at partner electronics stores on laptops and TVs this month.", "relevant": ["croma", "flipkart"]},
+  {"author": "makemytrip", "kind": "market_update", "title": "Visa-free travel to Thailand extended", "body": "Thailand extended visa-free entry for Indian travellers; we expect a surge in holiday bookings.", "relevant": ["tata_aig"]},
+  {"author": "paytm_money", "kind": "market_update", "title": "Inflation eases to 4%", "body": "CPI inflation eased to 4.1% in October; markets expect a rate cut.", "relevant": ["hdfc_bank"]},
+  {"author": "swiggy", "kind": "offer", "title": "Dineout festive dining deals", "body": "Up to 40% off at 5,000 restaurants on Dineout during Navratri.", "relevant": ["phonepe", "hdfc_bank"]},
+  {"author": "croma", "kind": "offer", "title": "TV exchange festival", "body": "Exchange your old TV and get up to ₹10,000 off on new smart TVs at Croma this Diwali.", "relevant": ["hdfc_bank", "phonepe"]},
+  {"author": "delhivery", "kind": "announcement", "title": "Warehouse capacity available", "body": "Delhivery has 2 lakh sq ft of new warehousing capacity in Bhiwandi available for brands and marketplaces.", "relevant": ["flipkart"]},
+  {"author": "phonepe", "kind": "announcement", "title": "UPI credit lines on PhonePe", "body": "Customers can now link pre-approved bank credit lines to UPI on PhonePe; looking for bank partners.", "relevant": ["hdfc_bank"]},
+  {"author": "tata_aig", "kind": "offer", "title": "Travel insurance at checkout", "body": "Tata AIG offers API-based travel insurance from ₹99 per trip for travel booking platforms.", "relevant": ["makemytrip"]},
+  {"author": "zomato", "kind": "market_update", "title": "Zomato quarterly results", "body": "Zomato reported 30% year-on-year growth in food delivery GOV this quarter.", "relevant": ["paytm_money"]}
+]

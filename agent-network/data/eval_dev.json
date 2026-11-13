@@ -1,0 +1,14 @@
+[
+  {"author": "swiggy", "kind": "offer", "title": "Diwali delivery offer", "body": "5% off all deliveries on Diwali.", "relevant": ["phonepe", "hdfc_bank"]},
+  {"author": "bajaj_auto", "kind": "announcement", "title": "Chetak electric scooter festive launch", "body": "New Chetak EV scooter launching this Dhanteras at all dealerships, bookings open with a ₹2,000 token.", "relevant": ["hdfc_bank", "tata_aig"]},
+  {"author": "hdfc_bank", "kind": "market_update", "title": "RBI holds repo rate at 6.5%", "body": "RBI's monetary policy committee kept the repo rate unchanged at 6.5%; loan EMIs stay flat this quarter.", "relevant": ["paytm_money"]},
+  {"author": "flipkart", "kind": "announcement", "title": "Big Billion Days dates announced", "body": "Big Billion Days sale runs Oct 1-8 with deals on smartphones, TVs and fashion. Looking for bank partners for instant discounts.", "relevant": ["hdfc_bank", "phonepe", "delhivery"]},
+  {"author": "makemytrip", "kind": "offer", "title": "Holiday flight sale", "body": "Flat 15% off on domestic flights and hotels for the December holiday season.", "relevant": ["tata_aig", "hdfc_bank", "phonepe"]},
+  {"author": "phonepe", "kind": "market_update", "title": "NPCI raises UPI limit", "body": "NPCI raised the UPI per-transaction limit for tax payments and hospitals to ₹5 lakh from next month.", "relevant": ["hdfc_bank"]},
+  {"author": "croma", "kind": "announcement", "title": "iPhone launch day stock", "body": "Croma stores will stock the new iPhone from launch day; we are looking for card partners for no-cost EMI.", "relevant": ["hdfc_bank"]},
+  {"author": "delhivery", "kind": "announcement", "title": "Express delivery to 2,000 new pin codes", "body": "Delhivery now offers next-day express shipping to 2,000 new pin codes across tier-3 towns.", "relevant": ["flipkart"]},
+  {"author": "tata_aig", "kind": "offer", "title": "Two-wheeler insurance bundle", "body": "Tata AIG offers first-year motor insurance at 20% off when bundled with new two-wheeler purchases at dealerships.", "relevant": ["bajaj_auto"]},
+  {"author": "zomato", "kind": "announcement", "title": "Restaurant commission update", "body": "Zomato is reducing restaurant commission for cloud kitchens in 10 cities.", "relevant": ["swiggy"]},
+  {"author": "swiggy", "kind": "announcement", "title": "Instamart 10-minute grocery in Pune", "body": "Instamart launches 10-minute grocery delivery across Pune with free delivery on the first three orders.", "relevant": ["phonepe"]},
+  {"author": "paytm_money", "kind": "market_update", "title": "SEBI tightens F&O rules", "body": "SEBI tightened futures and options rules for retail traders, effective next quarter.", "relevant": []}
+]
