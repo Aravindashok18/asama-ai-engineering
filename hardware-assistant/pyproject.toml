@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hwqa"
+version = "1.0.0"
+description = "Local hardware Q&A assistant for Linux laptops with safe, allow-listed tool calling"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["httpx>=0.25"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[project.scripts]
+hwqa = "hwqa.cli:main"
+
+[tool.setuptools]
+packages = ["hwqa"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

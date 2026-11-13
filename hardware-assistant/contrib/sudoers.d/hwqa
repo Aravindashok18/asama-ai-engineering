@@ -1,0 +1,13 @@
+# Lets members of the `hwqa` group run exactly these read-only commands as root,
+# without a password, and nothing else. hwqa calls them as `sudo -n <path> <args>`.
+#
+# Install (as root):
+#   groupadd -f hwqa && usermod -aG hwqa "$USER"
+#   install -m 0440 contrib/sudoers.d/hwqa /etc/sudoers.d/hwqa
+#   visudo -cf /etc/sudoers.d/hwqa
+#
+# The argument lists are fixed, so the rule cannot be used to run dmidecode with other
+# options (for example to dump serial numbers with -s system-serial-number).
+# On distros where dmidecode lives in /usr/bin, change the path below.
+
+%hwqa ALL=(root) NOPASSWD: /usr/sbin/dmidecode -t 16 -t 17
