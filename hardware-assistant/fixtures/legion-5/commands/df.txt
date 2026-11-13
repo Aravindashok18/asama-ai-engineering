@@ -1,0 +1,6 @@
+Filesystem      Type   1B-blocks          Used         Avail Mounted on
+/dev/nvme0n1p3  btrfs 1022505222144  611482124288  408934596608 /
+/dev/nvme0n1p2  ext4     1020702720     318226432     633245696 /boot
+/dev/nvme0n1p3  btrfs 1022505222144  611482124288  408934596608 /home
+/dev/nvme0n1p1  vfat      627900416      19800064     608100352 /boot/efi
+/dev/sda1       xfs   1000203837440  842117238784  158086598656 /data

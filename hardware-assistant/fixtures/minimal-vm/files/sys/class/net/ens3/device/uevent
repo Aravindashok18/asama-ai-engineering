@@ -1,0 +1,2 @@
+DRIVER=virtio_net
+PCI_CLASS=28000

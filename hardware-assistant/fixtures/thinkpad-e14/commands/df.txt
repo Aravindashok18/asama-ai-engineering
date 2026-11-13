@@ -1,0 +1,3 @@
+Filesystem          Type     1B-blocks         Used        Avail Mounted on
+/dev/nvme0n1p2      ext4  502391193600 287164256256 189604200448 /
+/dev/nvme0n1p1      vfat     535805952      6402048    529403904 /boot/efi

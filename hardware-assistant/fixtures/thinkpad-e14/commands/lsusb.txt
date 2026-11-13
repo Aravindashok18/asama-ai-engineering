@@ -1,0 +1,5 @@
+Bus 004 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Bus 003 Device 003: ID 06cb:00f9 Synaptics, Inc. Fingerprint Reader
+Bus 003 Device 002: ID 5986:2127 Bison Electronics Inc. Integrated Camera
+Bus 003 Device 004: ID 0bda:4853 Realtek Semiconductor Corp. Bluetooth Radio
+Bus 003 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub

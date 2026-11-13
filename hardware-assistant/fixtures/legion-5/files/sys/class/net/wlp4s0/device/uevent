@@ -1,0 +1,2 @@
+DRIVER=iwlwifi
+PCI_CLASS=28000

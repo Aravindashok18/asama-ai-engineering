@@ -1,0 +1,56 @@
+{
+   "lscpu": [
+      {
+         "field": "Architecture:",
+         "data": "x86_64"
+      },
+      {
+         "field": "CPU(s):",
+         "data": "2"
+      },
+      {
+         "field": "Vendor ID:",
+         "data": "GenuineIntel"
+      },
+      {
+         "field": "Model name:",
+         "data": "Intel Xeon Processor (Icelake)"
+      },
+      {
+         "field": "Thread(s) per core:",
+         "data": "1"
+      },
+      {
+         "field": "Core(s) per socket:",
+         "data": "2"
+      },
+      {
+         "field": "Socket(s):",
+         "data": "1"
+      },
+      {
+         "field": "Hypervisor vendor:",
+         "data": "KVM"
+      },
+      {
+         "field": "Virtualization type:",
+         "data": "full"
+      },
+      {
+         "field": "Flags:",
+         "data": "fpu sse sse2 ssse3 sse4_1 sse4_2 avx avx2 avx512f aes"
+      },
+      {
+         "field": "L1d cache:",
+         "data": "96 KiB (2 instances)"
+      },
+      {
+         "field": "L2 cache:",
+         "data": "8 MiB (2 instances)"
+      },
+      {
+         "field": "L3 cache:",
+         "data": "16 MiB (1 instance)"
+      }
+   ]
+}

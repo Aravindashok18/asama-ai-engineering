@@ -1,0 +1,2 @@
+Filesystem     Type 1B-blocks       Used      Avail Mounted on
+/dev/vda1      ext4 42127835136 9123414016 31237713920 /

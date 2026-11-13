@@ -1,0 +1,5 @@
+{
+  "description": "Lenovo Legion 5 15ACH6H, Fedora 39, AMD iGPU + NVIDIA RTX 3060 (proprietary driver). 2x8 GB, both slots used. NVMe SSD + SATA HDD. Recorded as root.",
+  "root": true,
+  "missing_binaries": []
+}

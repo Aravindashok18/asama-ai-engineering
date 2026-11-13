@@ -1,0 +1,43 @@
+Slot:	00:00.0
+Class:	Host bridge [0600]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Renoir/Cezanne Root Complex [1630]
+SVendor:	Lenovo [17aa]
+SDevice:	Renoir/Cezanne Root Complex [5087]
+
+Slot:	02:00.0
+Class:	Network controller [0280]
+Vendor:	Realtek Semiconductor Co., Ltd. [10ec]
+Device:	RTL8852BE PCIe 802.11ax Wireless Network Controller [b852]
+SVendor:	Lenovo [17aa]
+SDevice:	RTL8852BE PCIe 802.11ax Wireless Network Controller [4853]
+Driver:	rtw89_8852be
+Module:	rtw89_8852be
+
+Slot:	03:00.0
+Class:	Ethernet controller [0200]
+Vendor:	Realtek Semiconductor Co., Ltd. [10ec]
+Device:	RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller [8168]
+SVendor:	Lenovo [17aa]
+SDevice:	RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller [5087]
+Rev:	15
+Driver:	r8169
+Module:	r8169
+
+Slot:	04:00.0
+Class:	Non-Volatile memory controller [0108]
+Vendor:	Samsung Electronics Co Ltd [144d]
+Device:	NVMe SSD Controller PM9A1/PM9A3/980PRO [a80a]
+Driver:	nvme
+Module:	nvme
+
+Slot:	05:00.0
+Class:	VGA compatible controller [0300]
+Vendor:	Advanced Micro Devices, Inc. [AMD/ATI] [1002]
+Device:	Barcelo [15e7]
+SVendor:	Lenovo [17aa]
+SDevice:	Barcelo [5087]
+Rev:	c1
+ProgIf:	00
+Driver:	amdgpu
+Module:	amdgpu

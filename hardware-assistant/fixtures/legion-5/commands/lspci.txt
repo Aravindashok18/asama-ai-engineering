@@ -1,0 +1,37 @@
+Slot:	01:00.0
+Class:	VGA compatible controller [0300]
+Vendor:	NVIDIA Corporation [10de]
+Device:	GA106M [GeForce RTX 3060 Mobile / Max-Q] [2520]
+SVendor:	Lenovo [17aa]
+SDevice:	GA106M [GeForce RTX 3060 Mobile / Max-Q] [3a5d]
+Rev:	a1
+Driver:	nvidia
+Module:	nouveau
+Module:	nvidia_drm
+Module:	nvidia
+
+Slot:	04:00.0
+Class:	Network controller [0280]
+Vendor:	Intel Corporation [8086]
+Device:	Wi-Fi 6 AX200 [2723]
+SVendor:	Intel Corporation [8086]
+SDevice:	Wi-Fi 6 AX200NGW [0084]
+Driver:	iwlwifi
+Module:	iwlwifi
+
+Slot:	05:00.0
+Class:	Ethernet controller [0200]
+Vendor:	Realtek Semiconductor Co., Ltd. [10ec]
+Device:	RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller [8168]
+Driver:	r8169
+Module:	r8169
+
+Slot:	06:00.0
+Class:	VGA compatible controller [0300]
+Vendor:	Advanced Micro Devices, Inc. [AMD/ATI] [1002]
+Device:	Cezanne [Radeon Vega Series / Radeon Vega Mobile Series] [1638]
+SVendor:	Lenovo [17aa]
+SDevice:	Cezanne [Radeon Vega Series / Radeon Vega Mobile Series] [3a5d]
+Rev:	c5
+Driver:	amdgpu
+Module:	amdgpu

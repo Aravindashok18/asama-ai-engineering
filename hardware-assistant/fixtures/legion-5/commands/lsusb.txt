@@ -1,0 +1,5 @@
+Bus 001 Device 002: ID 048d:c965 Integrated Technology Express, Inc. ITE Device(8295)
+Bus 001 Device 003: ID 5986:211b Bison Electronics Inc. Integrated Camera
+Bus 003 Device 002: ID 8087:0029 Intel Corp. AX200 Bluetooth
+Bus 003 Device 004: ID 046d:c52b Logitech, Inc. Unifying Receiver
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub

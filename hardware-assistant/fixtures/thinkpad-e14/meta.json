@@ -1,0 +1,8 @@
+{
+  "description": "Lenovo ThinkPad E14 Gen 4 (AMD), Ubuntu 22.04. 16 GB in 1 of 2 slots, 64 GB max. Recorded as a normal user; a scoped sudo rule for dmidecode is installed.",
+  "root": false,
+  "sudo_rule": true,
+  "missing_binaries": [
+    "nvidia-smi"
+  ]
+}

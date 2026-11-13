@@ -1,0 +1,74 @@
+{
+   "blockdevices": [
+      {
+         "name": "sda",
+         "type": "disk",
+         "size": "1000204886016",
+         "model": "ST1000LM035-1RK172",
+         "rota": "1",
+         "tran": "sata",
+         "rm": "0",
+         "mountpoint": null,
+         "fstype": null,
+         "children": [
+            {
+               "name": "sda1",
+               "type": "part",
+               "size": "1000203837440",
+               "model": null,
+               "rota": "1",
+               "tran": null,
+               "rm": "0",
+               "mountpoint": "/data",
+               "fstype": "xfs"
+            }
+         ]
+      },
+      {
+         "name": "nvme0n1",
+         "type": "disk",
+         "size": "1024209543168",
+         "model": "WDC PC SN730 SDBQNTY-1T00-1001",
+         "rota": "0",
+         "tran": "nvme",
+         "rm": "0",
+         "mountpoint": null,
+         "fstype": null,
+         "children": [
+            {
+               "name": "nvme0n1p1",
+               "type": "part",
+               "size": "629145600",
+               "model": null,
+               "rota": "0",
+               "tran": null,
+               "rm": "0",
+               "mountpoint": "/boot/efi",
+               "fstype": "vfat"
+            },
+            {
+               "name": "nvme0n1p2",
+               "type": "part",
+               "size": "1073741824",
+               "model": null,
+               "rota": "0",
+               "tran": null,
+               "rm": "0",
+               "mountpoint": "/boot",
+               "fstype": "ext4"
+            },
+            {
+               "name": "nvme0n1p3",
+               "type": "part",
+               "size": "1022505222144",
+               "model": null,
+               "rota": "0",
+               "tran": null,
+               "rm": "0",
+               "mountpoint": "/home",
+               "fstype": "btrfs"
+            }
+         ]
+      }
+   ]
+}

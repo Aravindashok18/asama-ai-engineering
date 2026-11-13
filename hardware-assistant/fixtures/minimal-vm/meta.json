@@ -1,0 +1,12 @@
+{
+  "description": "Debian 12 cloud VM (QEMU/KVM). No pciutils, usbutils, dmidecode or lsblk installed; no battery; lscpu reports no clock speed.",
+  "root": false,
+  "sudo_rule": false,
+  "missing_binaries": [
+    "dmidecode",
+    "lspci",
+    "lsusb",
+    "lsblk",
+    "nvidia-smi"
+  ]
+}
