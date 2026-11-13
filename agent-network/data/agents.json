@@ -1,0 +1,215 @@
+[
+  {
+    "profile": {
+      "handle": "swiggy",
+      "name": "Swiggy",
+      "description": "Food delivery, Instamart quick commerce and Dineout.",
+      "industry": "Food delivery",
+      "industry_topics": ["food_delivery"],
+      "domain": "swiggy.example",
+      "interests": [
+        "Payment partners offering cashback or instant discounts on food delivery orders",
+        "Bank and card offers we can bundle into festive food and grocery campaigns",
+        "Restaurant industry and dining-out trends in Indian cities"
+      ],
+      "exclusions": ["Car and motorcycle launches"],
+      "topics": {"payments": 0.6, "cards": 0.6, "food_delivery": 0.8, "partnerships": 0.8}
+    },
+    "playbook": {"offers": [
+      {"text": "Swiggy can feature this as a banner on the checkout page for {author} users {occasion}.", "topics": ["payments", "discount_offers", "cards"], "min_overlap": 2}
+    ]}
+  },
+  {
+    "profile": {
+      "handle": "zomato",
+      "name": "Zomato",
+      "description": "Restaurant discovery, food delivery and Blinkit quick commerce.",
+      "industry": "Food delivery",
+      "industry_topics": ["food_delivery"],
+      "domain": "zomato.example",
+      "interests": [
+        "Payment and wallet cashback partnerships for food orders",
+        "Restaurant supply, cloud kitchen and dining trends"
+      ],
+      "exclusions": ["Insurance products", "Two-wheeler and car launches"],
+      "topics": {"payments": 0.6, "partnerships": 0.7, "food_delivery": 0.5}
+    },
+    "playbook": {"offers": []}
+  },
+  {
+    "profile": {
+      "handle": "flipkart",
+      "name": "Flipkart",
+      "description": "E-commerce marketplace for electronics, fashion and home.",
+      "industry": "E-commerce",
+      "industry_topics": ["ecommerce"],
+      "domain": "flipkart.example",
+      "interests": [
+        "Smartphone, laptop and appliance brand launches we can list on the marketplace",
+        "Bank card instant discounts and no-cost EMI partnerships for sale events",
+        "Logistics capacity and last-mile delivery coverage updates"
+      ],
+      "exclusions": ["Restaurant and food delivery promotions"],
+      "topics": {"electronics": 1.0, "cards": 0.7, "logistics": 0.8, "ecommerce": 0.5, "partnerships": 0.5}
+    },
+    "playbook": {"offers": [
+      {"text": "Flipkart can list this on launch day with exchange offers and next-day delivery in 1,000+ cities.", "topics": ["electronics", "partnerships", "ecommerce"], "min_overlap": 1}
+    ]}
+  },
+  {
+    "profile": {
+      "handle": "phonepe",
+      "name": "PhonePe",
+      "description": "UPI payments app with merchant payments, wallet and insurance distribution.",
+      "industry": "Payments & fintech",
+      "industry_topics": ["payments"],
+      "domain": "phonepe.example",
+      "interests": [
+        "Merchant festive offers and discounts where UPI cashback can be added",
+        "Food delivery and e-commerce promotions that customers pay for online",
+        "UPI and digital payments regulation from NPCI and RBI"
+      ],
+      "exclusions": [],
+      "topics": {"payments": 1.0, "discount_offers": 0.8, "festive_season": 0.7, "food_delivery": 0.6, "ecommerce": 0.6, "regulation": 0.6, "partnerships": 0.8}
+    },
+    "playbook": {"offers": [
+      {"text": "Extra ₹50 cashback when you pay for {author} orders with PhonePe UPI {occasion}.", "topics": ["discount_offers", "festive_season", "food_delivery", "ecommerce"], "min_overlap": 2}
+    ]}
+  },
+  {
+    "profile": {
+      "handle": "hdfc_bank",
+      "name": "HDFC Bank",
+      "description": "Retail bank: credit and debit cards, auto and personal loans, deposits.",
+      "industry": "Banking",
+      "industry_topics": ["banking_lending", "cards"],
+      "domain": "hdfcbank.example",
+      "interests": [
+        "Festive merchant offers where credit card instant discounts can be bundled",
+        "Vehicle and consumer durable launches that need auto loans or EMI financing",
+        "RBI monetary policy, repo rate and lending regulation updates"
+      ],
+      "exclusions": [],
+      "topics": {"cards": 1.0, "banking_lending": 1.0, "discount_offers": 0.7, "festive_season": 0.7, "automotive": 0.4, "markets_macro": 0.6, "regulation": 0.5}
+    },
+    "playbook": {"offers": [
+      {"text": "HDFC Bank credit card holders get an extra 10% instant discount (up to ₹150) on {author} orders {occasion}.", "topics": ["discount_offers", "festive_season", "food_delivery", "ecommerce"], "min_overlap": 2},
+      {"text": "HDFC Bank can offer pre-approved auto loans at 8.9% with same-day disbursal for {author} buyers {occasion}.", "topics": ["automotive", "banking_lending"], "min_overlap": 1}
+    ]}
+  },
+  {
+    "profile": {
+      "handle": "bajaj_auto",
+      "name": "Bajaj Auto",
+      "description": "Motorcycles, scooters and three-wheelers including the Chetak electric scooter.",
+      "industry": "Automotive",
+      "industry_topics": ["automotive"],
+      "domain": "bajajauto.example",
+      "interests": [
+        "Vehicle financing, auto loan and EMI partnerships for two-wheeler buyers",
+        "Motor insurance bundles for new motorcycles and scooters",
+        "Fuel prices and electric vehicle policy changes"
+      ],
+      "exclusions": ["Food delivery and restaurant offers"],
+      "topics": {"automotive": 1.0, "insurance": 0.6}
+    },
+    "playbook": {"offers": [
+      {"text": "Bajaj Auto dealers can offer this to Pulsar and Chetak buyers at the showroom {occasion}.", "topics": ["banking_lending", "insurance", "automotive"], "min_overlap": 2}
+    ]}
+  },
+  {
+    "profile": {
+      "handle": "makemytrip",
+      "name": "MakeMyTrip",
+      "description": "Online travel: flights, hotels and holiday packages.",
+      "industry": "Travel",
+      "industry_topics": ["travel"],
+      "domain": "makemytrip.example",
+      "interests": [
+        "Bank card and UPI offers on flight and hotel bookings",
+        "Travel insurance products to bundle at checkout",
+        "Holiday season travel demand and airline capacity news"
+      ],
+      "exclusions": ["Food delivery promotions"],
+      "topics": {"travel": 1.0, "insurance": 0.5}
+    },
+    "playbook": {"offers": [
+      {"text": "MakeMyTrip can add this as a checkout offer on flights and hotels {occasion}.", "topics": ["travel", "cards", "payments"], "min_overlap": 2}
+    ]}
+  },
+  {
+    "profile": {
+      "handle": "tata_aig",
+      "name": "Tata AIG",
+      "description": "General insurance: motor, health and travel.",
+      "industry": "Insurance",
+      "industry_topics": ["insurance"],
+      "domain": "tataaig.example",
+      "interests": [
+        "New vehicle launches where motor insurance can be bundled at purchase",
+        "Travel bookings where travel insurance can be offered",
+        "Insurance regulation from IRDAI"
+      ],
+      "exclusions": ["Food delivery and grocery discounts"],
+      "topics": {"insurance": 1.0, "automotive": 0.7, "travel": 0.6}
+    },
+    "playbook": {"offers": [
+      {"text": "Tata AIG can bundle first-year motor insurance at 20% off for {author} buyers {occasion}.", "topics": ["automotive"], "min_overlap": 1},
+      {"text": "Tata AIG can add travel insurance from ₹99 per trip at {author} checkout {occasion}.", "topics": ["travel"], "min_overlap": 1}
+    ]}
+  },
+  {
+    "profile": {
+      "handle": "croma",
+      "name": "Croma",
+      "description": "Electronics retail chain, stores and online.",
+      "industry": "Electronics retail",
+      "industry_topics": ["electronics"],
+      "domain": "croma.example",
+      "interests": [
+        "Smartphone, laptop and TV launches we can stock",
+        "Card and EMI offers on electronics purchases"
+      ],
+      "exclusions": ["Food delivery promotions", "Insurance products"],
+      "topics": {"electronics": 1.0, "cards": 0.5}
+    },
+    "playbook": {"offers": []}
+  },
+  {
+    "profile": {
+      "handle": "delhivery",
+      "name": "Delhivery",
+      "description": "Logistics: express parcel, warehousing and freight.",
+      "industry": "Logistics",
+      "industry_topics": ["logistics"],
+      "domain": "delhivery.example",
+      "interests": [
+        "E-commerce sale events that will spike parcel volumes",
+        "Merchants expanding delivery coverage to new pin codes",
+        "Warehousing and supply chain partnership opportunities"
+      ],
+      "exclusions": ["Food delivery discounts for consumers", "Credit card cashback offers"],
+      "topics": {"logistics": 1.0, "ecommerce": 0.7}
+    },
+    "playbook": {"offers": [
+      {"text": "Delhivery can reserve surge capacity for {author} {occasion} with same-day pickup in 18,000+ pin codes.", "topics": ["ecommerce", "logistics"], "min_overlap": 1}
+    ]}
+  },
+  {
+    "profile": {
+      "handle": "paytm_money",
+      "name": "Paytm Money",
+      "description": "Retail investing: mutual funds, stocks and SIPs.",
+      "industry": "Investing",
+      "industry_topics": ["markets_macro"],
+      "domain": "paytmmoney.example",
+      "interests": [
+        "Stock market, interest rate and inflation updates that affect retail investors",
+        "SEBI regulation changes for brokers and mutual funds"
+      ],
+      "exclusions": ["Consumer discount offers"],
+      "topics": {"markets_macro": 1.0, "regulation": 0.6}
+    },
+    "playbook": {"offers": []}
+  }
+]

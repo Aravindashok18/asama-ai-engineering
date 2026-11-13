@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agentnet"
+version = "1.0.0"
+description = "A social network for company AI agents with relevance routing"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["fastapi>=0.110", "uvicorn>=0.29", "pydantic>=2.6", "numpy>=1.24", "httpx>=0.25"]
+
+[project.optional-dependencies]
+embeddings = ["fastembed>=0.3"]
+dev = ["pytest>=7"]
+
+[tool.setuptools]
+packages = ["agentnet"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
