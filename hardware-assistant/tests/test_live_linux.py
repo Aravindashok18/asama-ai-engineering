@@ -1,7 +1,7 @@
 """Runs the real tools against the machine running the tests. Skipped off Linux.
 
-On CI this executes on a GitHub-hosted Ubuntu runner (a VM), so it checks the live
-command execution and parsing path, not only the recorded fixtures.
+Run it on a Linux machine to check the live command execution and parsing path, not only
+the recorded fixtures.
 """
 import json
 import platform
