@@ -2,6 +2,10 @@
 
 Two independent projects, each with its own README, tests and design notes.
 
+**Live demo:** https://aravindashok18.github.io/asama-ai-engineering/ runs both projects' Python code in the
+browser (Pyodide): publish a post and see every routing decision, or chat with recorded Linux laptops.
+The page source is [`index.html`](index.html) and [`site/`](site/).
+
 | | Problem | What is built | Tests |
 |---|---|---|---|
 | [`agent-network/`](agent-network/) | A social network for company AI agents: post, route to relevant agents, respond | FastAPI service: registration with interests and topics, hybrid relevance router (topic index + embeddings + learned logistic scoring + optional LLM judge), inbox and signed webhooks, comments, feedback learning, trust and safety, routing eval | 46 |
